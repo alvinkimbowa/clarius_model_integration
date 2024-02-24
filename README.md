@@ -4,8 +4,6 @@ Please note that this repository has only been tested only on a Windows PC.
 Clone the repository and machine learning model using the following command
 ```
 git clone https://github.com/alvinkimbowa/clarius_model_integration.git
-
-curl https://ubcca-my.sharepoint.com/:u:/g/personal/alvinbk_student_ubc_ca/EeNt5b_A10ZEjd5XniN97osBmknefOF9QTV4zNGz08nJIg?e=RaT8D2 -o nnunet_model.pth
 ```
 
 Install the necessary dependents, create a python environment and install the requirements using the commands below. Please note that this repository has only been tested with python environments. Anaconda environments may throw errors.
@@ -19,6 +17,8 @@ cd ../../
 
 pip install -r requirements.txt
 ```
+
+Download the model weights to the same folder as the rest of the code. The model weights are on OneDrive [nnunet_model.pth](https://ubcca-my.sharepoint.com/:u:/g/personal/alvinbk_student_ubc_ca/EeNt5b_A10ZEjd5XniN97osBmknefOF9QTV4zNGz08nJIg?e=RaT8D2).
 
 # Running the application
 Before running the application
